@@ -1,0 +1,20 @@
+{
+  "name": "Socratize: correlated-data",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "postCreateCommand": "bash setup.sh",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/r-rig:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "REditorSupport.r",
+        "RDebugger.r-debugger",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
